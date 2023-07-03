@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Lato;
+    color: #333;
+    background-color: white;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    margin-top: 20px;
+
+}
+
+.main-nav a:link,.footer-nav a:link, .social-nav a:link,
+.main-nav a:visited, .footer-nav a:visited, .social-nav a:visited{
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover,.footer-nav a:hover, .social-nav a:hover,
+.main-nav a:active,.footer-nav a:active, .social-nav a:active{
+    font-size: 20px;
+    text-decoration: underline;
+    color: orange;
+}
+
+.header-box {
+    position: absolute;
+    top: 40%;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.btn:link,
+.btn:visited {
+    border: solid 1px orange;
+    margin-right: 15px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: orange;
+
+}
+
+section ,footer {
+    padding: 40px 0px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    border: solid 2px orangered;
+    margin: 20px auto;
+}
+
+.feat-desc {
+    width: 60%;
+    text-align: center;
+    line-height: 150%;
+    margin: 20px auto;
+}
+
+.box i {
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.box h3 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.box p {
+    text-align: justify;
+    line-height: 1.5;
+
+}
+
+.meal {
+    margin-bottom: -5px;
+    background-color: black;
+}
+
+.meal img {
+    width: 100%;
+    opacity: 0.6;
+}
+
+.meal img:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.city img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.city h3 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.city div {
+    margin-bottom: 5px;
+}
+
+.city i {
+    color: orange;
+    margin-right: 5px;
+
+}
+
+.city a {
+    color: orange;
+}
+
+.testimonials {
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonials i {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.testimonials p {
+    margin-bottom: 15px;
+    line-height: 1.25;
+}
+
+.testimonials img {
+    margin-right: 10px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+form {
+    margin-top: 50px;
+}
+
+label,input[type=checkbox]  {
+    margin-bottom: 10px;
+
+}
+
+input[type=text],input[type=email],select,textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    border: solid 1px orange;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: orange;
+
+}
+
+footer{
+    background-color: #333;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-nav a, .social-nav a{
+    margin-right:  30px;
+}
